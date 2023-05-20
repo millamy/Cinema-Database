@@ -5,7 +5,7 @@ Simple Cinema database written in MSSQL
 
 2. Assumptions: a simple and functional structure enabling the storage and modification of selected data needed to operate the cinema
 • The cinema has many permanent employees
-• The number of cinema halls is a fixed 
+• The number of cinema halls is fixed 
 • Each cinema hall can have multiple employees
 • A single ticket applies to one movie seance
 • One movie can be created by many directors and producers
@@ -22,4 +22,4 @@ Simple Cinema database written in MSSQL
 • A single transaction includes tickets for one film screening only
 • Archive tables have not been designed in the database
 • Because the size of the tables is small, indexes have not been designed, but they may turn out to be useful as the database develops
-• Due to limited knowledge of the functioning of this type of facility and having the desire to keep it simple and clear, tables or elements that could be necessary in practice may have been omitted.
+• Due to limited knowledge about the functioning of this type of facility and having the desire to keep it simple and clear, tables or elements that could be necessary in practice may have been omitted.
